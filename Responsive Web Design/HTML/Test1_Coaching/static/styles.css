@@ -1,0 +1,106 @@
+body {
+    background-image: url(http://imgfz.com/i/3BRwdez.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 40px;
+    height: 100vh;
+}
+  
+h1, p {
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 40px;
+
+}
+  
+form{
+    width: 70vw;
+    max-width: 800px;
+    min-width: 300px;
+    margin: 2em auto;
+    padding-bottom: 2em;
+    padding-top: 1em;
+    background-color: #4e2c095b;
+    border-radius: 10px;
+}
+
+label{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 25px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+  
+  
+#input_user{
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: block;
+    width: calc(100% - 20px);
+    padding: 8px;
+    box-sizing: border-box;
+
+}
+
+fieldset{
+    border:none;
+    margin-left: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-left: -1.8px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fieldset_linea{
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+.legend_1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#label_linea{
+    margin-left: -1.8px;
+    font-size: 16px;
+}
+
+#condiciones{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#lab_textarea{
+    font-size: 15px;
+
+}
+
+textarea {
+    margin-top: 10px;
+    display: block;
+    width: 100%; 
+    box-sizing: border-box; 
+    resize: none;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 40%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: white;
+    border-color: white;
+    min-width: 300px;
+  }

@@ -1,0 +1,165 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technical Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav id="navbar">
+    <header>Documentation Topics</header>
+    <a class="nav-link" href="#introduction">Introduction</a>
+    <a class="nav-link" href="#setup_and_installation">Setup and Installation</a>
+    <a class="nav-link" href="#usage">Usage</a>
+    <a class="nav-link" href="#examples">Examples</a>
+    <a class="nav-link" href="#references">References</a>
+  </nav>
+  
+  <main id="main-doc">
+    <section id="introduction" class="main-section">
+      <header>Introduction</header>
+      <p>This is the introduction paragraph.</p>
+      <p>This is another paragraph in the introduction section.</p>
+      <code>code example 1</code>
+      <code>code example 2</code>
+      <li>List item 1</li>
+      <li>List item 2</li>
+      <li>List item 3</li>
+      <li>List item 4</li>
+      <li>List item 5</li>
+      <!-- More content -->
+    </section>
+    
+    <section id="setup_and_installation" class="main-section">
+      <header>Setup and Installation</header>
+      <p>This is the setup and installation paragraph.</p>
+      <p>This is another paragraph in the setup and installation section.</p>
+      <code>code example 1</code>
+      <code>code example 2</code>
+      <li>List item 1</li>
+      <li>List item 2</li>
+      <li>List item 3</li>
+      <li>List item 4</li>
+      <li>List item 5</li>
+      <!-- More content -->
+    </section>
+    
+    <section id="usage" class="main-section">
+      <header>Usage</header>
+      <p>This is the usage paragraph.</p>
+      <p>This is another paragraph in the usage section.</p>
+      <code>code example 1</code>
+      <code>code example 2</code>
+      <li>List item 1</li>
+      <li>List item 2</li>
+      <li>List item 3</li>
+      <li>List item 4</li>
+      <li>List item 5</li>
+      <!-- More content -->
+    </section>
+    
+    <section id="examples" class="main-section">
+      <header>Examples</header>
+      <p>This is the examples paragraph.</p>
+      <p>This is another paragraph in the examples section.</p>
+      <code>code example 1</code>
+      <code>code example 2</code>
+      <li>List item 1</li>
+      <li>List item 2</li>
+      <li>List item 3</li>
+      <li>List item 4</li>
+      <li>List item 5</li>
+      <!-- More content -->
+    </section>
+    
+    <section id="references" class="main-section">
+      <header>References</header>
+      <p>This is the references paragraph.</p>
+      <p>This is another paragraph in the references section.</p>
+      <code>code example 1</code>
+      <code>code example 2</code>
+      <li>List item 1</li>
+      <li>List item 2</li>
+      <li>List item 3</li>
+      <li>List item 4</li>
+      <li>List item 5</li>
+      <!-- More content -->
+    </section>
+  </main>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #f0f0f0;
+  overflow-y: auto;
+}
+
+#navbar header {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.nav-link {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-link:hover {
+  background-color: #ddd;
+}
+
+#main-doc {
+  margin-left: 220px; /* Ensure space for the navbar */
+  padding: 20px;
+}
+
+.main-section {
+  margin-bottom: 30px;
+}
+
+.main-section header {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.main-section p {
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  #navbar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow-y: visible;
+  }
+
+  #main-doc {
+    margin-left: 0;
+  }
+}
+
+
+** end of undefined **
+

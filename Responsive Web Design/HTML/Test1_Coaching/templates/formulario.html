@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+  </head>
+  <body>
+    <h1 id="title">FORMULARIO PARA COACHING </h1>
+    <p id="description">SEASON 2024</p>
+    <form id="survey-form" method="post" action="/">
+        <label id="name-label" >Ingresar nombre<input id="input_user" type="text" required placeholder="Nombre"/></label>
+        <label id="name-label">Ingresar email<input id="input_user" type="email" required placeholder="Email"/></label>
+        <label id="name-label">Ingresar numero<input id="input_user" type="number" min="1" max="100" required placeholder="Numero"/></label>
+        <fieldset>
+            <select id="dropdown">
+              <option value="">Seleciona liga</option>
+              <option value="Hierro">Hierro</option>
+              <option value="Bronce">Bronce</option>
+              <option value="Plata">Plata</option>
+              <option value="Hierro">Oro</option>
+              <option value="Bronce">Platino</option>
+              <option value="Plata">Esmeralda</option>
+              <option value="Plata">Diamante</option>
+              <option value="Plata">Maestro</option>
+              <option value="Plata">Gran maestro</option>
+              <option value="Plata">Retador</option>
+
+            </select>
+        </fieldset>
+        <fieldset class="fieldset_linea">
+            <legend class="legend_1">¿Que linea juegas?</legend>
+            <label for="TOP" id="label_linea"><input id="TOP" type="radio" name="lane" class="inline" checked value="TOP" /> TOP</label>
+            <label for="JG" id="label_linea"><input id="JG" type="radio" name="lane" class="inline" checked value="JG" /> JG</label>
+            <label for="MID" id="label_linea"><input id="MID" type="radio" name="lane" class="inline" checked value="MID" /> MID</label>
+            <label for="ADC" id="label_linea"><input id="ADC" type="radio" name="lane" class="inline" checked value="ADC" /> ADC</label>
+            <label for="SUPP" id="label_linea"><input id="SUPP" type="radio" name="lane" class="inline" checked value="SUPP" /> SUPP</label>
+        </fieldset>
+
+        <label for="condicion_1" id="condiciones">
+            <input class="inline" id="condicion_1" type="checkbox" required name="condicion_1" value="Checkbox1" />
+            Quiero que mi sesion sea grabada
+        </label>
+        <label for="condicion_2" id="condiciones">
+            <input class="inline" id="condicion_2" type="checkbox" required name="condicion_2" value="Checkbox2" />
+            Quiero que el coach vea mi perfil antes de la sesión de coaching
+        </label>
+
+        <label for="bio" id="lab_textarea">¿Que te gustaría aprender durante el coaching?
+            <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Escribe..."></textarea>
+        </label> 
+
+        <input type="submit" value="Enviar" id="submit" />
+    </form>
+  <body>
+</html>

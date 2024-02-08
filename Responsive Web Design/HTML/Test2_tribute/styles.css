@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+  }
+  body{
+    background-color: #D5EAE8;
+  }
+  main{
+    background-color: white;
+  }
+  
+  img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      justify-content: space-between;
+      align-items: center;
+      top: 0;
+      margin: 0 auto;
+      padding-top: 10;
+    }
+  figcaption{
+    text-align: center;
+  }
+  #tribute-info{
+    text-align: center;
+  }
+  
+  #final{
+    text-align: center;
+  }
